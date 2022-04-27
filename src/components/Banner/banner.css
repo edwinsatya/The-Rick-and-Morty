@@ -1,0 +1,23 @@
+.banner-wrapper {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: white;
+}
+
+.banner-wrapper h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .banner-wrapper {
+    padding: 3rem 0;
+  }
+
+  .banner-wrapper h1 {
+    font-size: 6rem;
+  }
+}

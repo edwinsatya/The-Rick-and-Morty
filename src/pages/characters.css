@@ -1,0 +1,22 @@
+.section-wrapper {
+  padding: 1rem;
+  background-color: #24282f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 650px) {
+  .section-wrapper {
+    padding: 4rem 1rem;
+  }
+}
+
+@media (min-width: 1250px) {
+  .section-wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}

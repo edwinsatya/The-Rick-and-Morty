@@ -1,0 +1,37 @@
+.nav-wrapper {
+  margin: 0;
+  height: auto;
+  width: 100%;
+  background-color: white;
+}
+
+.nav-wrapper ul {
+  padding: 2px;
+  margin: 0;
+}
+
+.nav-wrapper li {
+  list-style-type: none;
+}
+
+.logo {
+  height: 3rem;
+  width: 3rem;
+  margin-left: 1rem;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+  .nav-wrapper ul {
+    padding: 10px;
+  }
+
+  .logo {
+    height: 5rem;
+    width: 5rem;
+  }
+}

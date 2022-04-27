@@ -1,0 +1,64 @@
+.card-wrapper {
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 640px;
+}
+
+.card h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  background-color: #3c3e44;
+  border-radius: 0.7rem;
+  overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transition: 1s;
+}
+
+.card img {
+  width: 100%;
+  height: 17rem;
+}
+
+.card .desc-wrapper {
+  padding: 1rem;
+}
+
+.card .desc-wrapper .section:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.card .desc-wrapper .section:first-child p {
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.card .desc-wrapper .section:not(:first-child) p {
+  font-weight: 500;
+}
+.card .desc-wrapper .section:not(:first-child) p span {
+  color: #9e9e9e;
+}
+
+@media (min-width: 650px) {
+  .card {
+    flex-direction: row;
+  }
+  .card img {
+    width: 40%;
+    height: auto;
+  }
+
+  .card:hover {
+    box-shadow: 1px 2px 60px -13px rgba(245, 235, 235, 0.75);
+    -webkit-box-shadow: 1px 2px 60px -13px rgba(245, 235, 235, 0.75);
+    -moz-box-shadow: 1px 2px 60px -13px rgba(245, 235, 235, 0.75);
+    transform: scale(1.1);
+  }
+}
