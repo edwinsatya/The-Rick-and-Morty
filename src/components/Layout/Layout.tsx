@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import Banner from "../Banner/Banner";
+import Footer from "../Footer/Footer";
 import { Outlet } from "react-router-dom";
 
 const Layout: React.FC = (): JSX.Element => {
@@ -13,6 +14,7 @@ const Layout: React.FC = (): JSX.Element => {
         <Banner />
         <Outlet />
       </main>
+      <Footer />
     </>
   );
 };

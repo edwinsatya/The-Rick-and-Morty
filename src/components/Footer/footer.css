@@ -1,0 +1,12 @@
+.footer-wrapper {
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (min-width: 650px) {
+  .footer-wrapper {
+    font-size: 18px;
+  }
+}

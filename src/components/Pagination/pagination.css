@@ -1,0 +1,30 @@
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0px;
+}
+
+.pagination-wrapper button {
+  padding: 5px;
+  width: 100%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media (min-width: 650px) {
+  .pagination-wrapper button {
+    padding: 5px;
+    width: 300px;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .pagination-wrapper {
+    width: 650px;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-bottom: 20px;
+  }
+}

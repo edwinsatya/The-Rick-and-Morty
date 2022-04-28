@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Layout from "./components/Layout/Layout";
 import NotFound from "./pages/NotFound";
-import Character from "./pages/Character";
 import Characters from "./pages/Characters";
 import { useRoutes } from "react-router-dom";
 
@@ -15,10 +14,6 @@ const App: React.FC = (): JSX.Element => {
         {
           path: "/",
           element: <Characters />,
-        },
-        {
-          path: ":name",
-          element: <Character />,
         },
       ],
     },
